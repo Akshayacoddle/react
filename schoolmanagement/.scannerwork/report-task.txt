@@ -2,5 +2,5 @@ projectKey=school_management
 serverUrl=http://localhost:9000
 serverVersion=10.3.0.82913
 dashboardUrl=http://localhost:9000/dashboard?id=school_management
-ceTaskId=AYxxCX8OvE-XGdEEVYCo
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AYxxCX8OvE-XGdEEVYCo
+ceTaskId=AYyAi3E0dTZVVl2eRBll
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYyAi3E0dTZVVl2eRBll
