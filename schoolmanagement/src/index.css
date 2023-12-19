@@ -1,9 +1,37 @@
 body {
   margin: 0;
-  height: 500px;
+  height: 100vh;
  background: linear-gradient(#164863,#FFF7D4);
  
 }
+ul {  
+    list-style-type: none;  
+    margin: 0;  
+    padding: 0px;  
+    overflow: hidden;  
+    background-color: rgb(124 124 124); 
+  }  
+    
+  li {  
+    float: left;  
+  }  
+    
+  li a {  
+    display: block;  
+    color: rgb(236, 236, 243);  
+   font-size:20px;  
+    text-align: center;  
+    padding: 10px 20px;  
+    text-decoration: none;  
+  }  
+  .active{  
+  background-color: #666666;  
+  color: white;  
+  }  
+  li a:hover {  
+    background-color: rgb(82, 122, 148);  
+    color: white;  
+  }  
 .container {
     display: flex;
     flex-direction: column;
@@ -20,6 +48,7 @@ body {
     gap: 9px;
     width: 100%;
     margin-top: 25px;
+    font-size: 15px;
 }
 .text {
     color: #9BB8CD;
